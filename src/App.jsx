@@ -5,6 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { About } from "./components/About Section/About";
 import { Services } from "./components/Services/Services";
+import { LogoSlider } from "./components/Logo Slider/LogoSlider";
 
 
 
@@ -17,6 +18,7 @@ export default function App() {
    <HeroSection   />
    <About   />
    <Services   />
+   <LogoSlider   />
    </>
     
 }
