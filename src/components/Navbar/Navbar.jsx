@@ -2,6 +2,7 @@
 import { HiMenu, HiX } from "react-icons/hi";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-scroll";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,51 +17,61 @@ export const Navbar = () => {
   }, []);
 
   return (
-    <div>
-      {/* Desktop */}
-      <nav className="bg-gray-900 hidden md:block mt-2 ml-4 mr-4 rounded-2xl">
-        <ul className="md:flex text-white md:flex-row pt-4 pb-4 text-2xl gap-8 uppercase md:justify-center font-serif">
+    <div className="fixed top-0 left-0 w-full z-50">
+      {/* Desktop Navbar */}
+      <nav className="bg-gray-900 hidden md:block px-6 py-4 rounded-2xl mt-2 ml-1 mr-1 shadow-lg">
+        <ul className="flex justify-center items-center gap-10 text-white text-xl font-serif uppercase">
           {navItems.map((item, index) => (
             <li
               key={index}
-              className="hover:cursor-pointer hover:text-yellow-400"
+              className="hover:text-yellow-400 transition duration-300 cursor-pointer"
             >
-              {item}
+              <Link
+                to={item.toLowerCase()}
+                smooth={true}
+                duration={800}
+                offset={-100} // offset for fixed navbar
+              >
+                {item}
+              </Link>
             </li>
           ))}
         </ul>
       </nav>
 
-      {/* Mobile */}
-      <nav className="pt-2 pb-2 px-4">
-        {/* Hamburger Icon */}
+      {/* Mobile Navbar */}
+      <div className="md:hidden bg-gray-900 px-4 py-2 rounded-2xl mt-2 ml-1 mr-1 shadow-lg">
         <div
-          className="md:hidden text-3xl cursor-pointer text-white bg-gray-900 p-2 rounded-md"
+          className="text-3xl text-white cursor-pointer"
           onClick={toggleMenu}
         >
           {isOpen ? <HiX /> : <HiMenu />}
         </div>
-
-        {/* Animated Mobile Menu */}
         <div
-          className={`transition-all duration-500 ease-in-out origin-top transform md:hidden overflow-hidden rounded-md ${
-            isOpen
-              ? "max-h-96 opacity-100 scale-y-100"
-              : "max-h-0 opacity-0 scale-y-0"
-          } bg-gray-900 shadow-md mt-2`}
+          className={`transition-all duration-500 ease-in-out transform overflow-hidden rounded-md ${
+            isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+          } bg-gray-900 mt-2`}
         >
-          <ul className="flex flex-col uppercase text-center text-white text-2xl gap-4 p-4">
+          <ul className="flex flex-col items-center text-white text-xl font-serif gap-4 py-4 uppercase">
             {navItems.map((item, index) => (
               <li
                 key={index}
-                className="hover:text-yellow-500 transition-colors duration-200"
+                className="hover:text-yellow-400 transition duration-300"
               >
-                {item}
+                <Link
+                  to={item.toLowerCase()}
+                  smooth={true}
+                  duration={800}
+                  offset={-100}
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item}
+                </Link>
               </li>
             ))}
           </ul>
         </div>
-      </nav>
+      </div>
     </div>
   );
 };
