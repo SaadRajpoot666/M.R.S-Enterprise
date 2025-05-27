@@ -1,14 +1,15 @@
  import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-
+import {Link} from "react-scroll"
+import { FaArrowRight } from 'react-icons/fa'
 export const HeroSection = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true });
+    AOS.init({ duration: 1000, once: false });
   }, []);
 
   return (
-    <section className="relative w-full h-screen overflow-hidden">
+    <section className="relative w-full h-screen overflow-hidden mt-[18%] md:mt-[8%] " id="home">
       {/* Background Image */}
       <img
         src="/images/header-bg.avif"
@@ -25,11 +26,14 @@ export const HeroSection = () => {
         <h1 className="text-white text-3xl md:text-5xl font-bold drop-shadow-md md:w-[70%]">
           Leading Industrial Importer and Certified Government Contractor Serving Pakistan
         </h1>
-        <p className="text-gray-200 mt-4 max-w-xl text-lg">
+        <p className="text-gray-200 mt-4 max-w-xl text-lg font-serif">
           M.R.S Enterprises is a trusted industrial goods importer in Pakistan,
           supplying electricals, safety gear, precision tools, and mechanical
           systems...
         </p>
+        <button className="flex flex-row text-2xl mt-10 text-white font-bold bg-black/50 px-4 py-2 rounded-2xl hover:text-yellow-500 hover:scale-110 hover:bg-white transition-all duration-300 ">
+<Link to="about" smooth={true} >Learn More <FaArrowRight className="inline"   /> </Link>
+        </button>
       </div>
     </section>
   );

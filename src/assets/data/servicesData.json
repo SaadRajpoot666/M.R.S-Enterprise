@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Electrical Components",
+    "description": "High-quality electrical items like wires, panels, and circuit breakers for safe and efficient operations.",
+    "img": "/images/electrical.jpg",
+    "alt": "Electrical Components"
+  },
+  {
+    "id": 2,
+    "title": "Mechanical Parts",
+    "description": "Durable mechanical parts including bearings, gears, and shafts built for industrial performance.",
+    "img": "/images/mechanical.jpg",
+    "alt": "Mechanical Parts"
+  },
+  {
+    "id": 3,
+    "title": "Lifting Equipment",
+    "description": "Reliable lifting tools such as hoists and chains designed for heavy industrial use.",
+    "img": "/images/lifting.jpg",
+    "alt": "Lifting Equipment"
+  },
+  {
+    "id": 4,
+    "title": "Measuring Tools",
+    "description": "Accurate gauges, sensors, and meters for industrial-level measurement and control.",
+    "img": "/images/measuring.jpg",
+    "alt": "Measuring Tools"
+  },
+  {
+    "id": 5,
+    "title": "Safety Gears",
+    "description": "Certified safety equipment like gloves, helmets, and PPE kits for workplace protection.",
+    "img": "/images/safety.jpg",
+    "alt": "Safety Gears"
+  },
+  {
+    "id": 6,
+    "title": "Industrials Consumables",
+    "description": "Essential consumables like fasteners, tapes, and abrasives for smooth daily operations.",
+    "img": "/images/industrial.jpg",
+    "alt": "Industrials Consumables"
+  },
+  {
+    "id": 7,
+    "title": "Lubricants & Oils",
+    "description": "High-performance industrial oils and greases that extend machine life and reduce wear.",
+    "img": "/images/lubricants.jpg",
+    "alt": "Lubricants & Oils"
+  },
+  {
+    "id": 8,
+    "title": "Wall Fitting",
+    "description": "Strong stainless and mild steel fittings ideal for industrial piping and structure work.",
+    "img": "/images/wall-fitting.jpg",
+    "alt": "Wall Fitting"
+  },
+  {
+    "id": 9,
+    "title": "Rotameters & Sensors",
+    "description": "Precision flow meters and sensors for monitoring and automation in industrial setups.",
+    "img": "/images/sensors.jpg",
+    "alt": "Rotameters & Sensors"
+  }
+]

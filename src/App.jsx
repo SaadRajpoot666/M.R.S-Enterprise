@@ -3,7 +3,7 @@ import { HeroSection } from "./components/HeroSection/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import { About } from "./components/About Section/About";
 
 
 export default function App() {
@@ -13,6 +13,7 @@ export default function App() {
    return <>
    <Navbar   />
    <HeroSection   />
+   <About   />
    </>
     
 }
