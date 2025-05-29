@@ -36,7 +36,7 @@ export const Services = () => {
         {servicesData.map(({ id, title, description, img, alt }, index) => (
           <div
             key={id}
-            className="card px-4 py-4 shadow-2xl bg-amber-50 rounded-2xl"
+            className="card px-4 py-4 shadow-2xl bg-[#f5f5f5] rounded-2xl"
             data-aos="zoom-in"
             data-aos-delay={index * 100} // ⏱ staggered animation
           >
