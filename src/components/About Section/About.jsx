@@ -7,8 +7,7 @@
     AOS.init({
       duration: 1000,
       once:false,
-      offset: 120, // starts the animation 120px before element comes into view
-      easing: "ease-in-out",
+      easing: "linear",
     });
   }, []);
   return (

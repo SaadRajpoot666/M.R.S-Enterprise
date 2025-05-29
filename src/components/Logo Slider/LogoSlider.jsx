@@ -19,10 +19,10 @@ export const LogoSlider = () => {
   return (
     <div className="overflow-hidden whitespace-nowrap py-6 bg-white border-t mt-[5%] border-b border-gray-200">
         <h2 className="text-3xl font-bold text-center text-yellow-500 mb-2 font-serif">
-  🌍 Trusted Global Brands
+  Trusted Global Brands
 </h2>
 <p className="text-center text-gray-600 text-lg mb-6">
-  We proudly supply premium products from world-renowned manufacturers.
+  We proudly supply premium products from <br /> world-renowned manufacturers.
 </p>
 
       <div
