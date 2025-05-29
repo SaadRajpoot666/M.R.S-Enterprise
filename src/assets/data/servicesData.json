@@ -2,63 +2,63 @@
   {
     "id": 1,
     "title": "Electrical Components",
-    "description": "High-quality electrical items like wires, panels, and circuit breakers for safe and efficient operations.",
+    "description": "Premium wires, panels, and circuit breakers built for safety and efficient power management in industrial settings. Trusted for durability and performance.",
     "img": "/images/electrical.jpg",
     "alt": "Electrical Components"
   },
   {
     "id": 2,
     "title": "Mechanical Parts",
-    "description": "Durable mechanical parts including bearings, gears, and shafts built for industrial performance.",
+    "description": "High-strength bearings, gears, and shafts engineered for reliable industrial performance and reduced maintenance downtime.",
     "img": "/images/mechanical.jpg",
     "alt": "Mechanical Parts"
   },
   {
     "id": 3,
     "title": "Lifting Equipment",
-    "description": "Reliable lifting tools such as hoists and chains designed for heavy industrial use.",
+    "description": "Safe and strong lifting tools like hoists and chains designed for heavy industrial use, ensuring smooth handling operations.",
     "img": "/images/lifting.jpg",
     "alt": "Lifting Equipment"
   },
   {
     "id": 4,
     "title": "Measuring Tools",
-    "description": "Accurate gauges, sensors, and meters for industrial-level measurement and control.",
+    "description": "Precision tools such as gauges and sensors to help monitor, control, and maintain industrial accuracy and quality standards.",
     "img": "/images/measuring.jpg",
     "alt": "Measuring Tools"
   },
   {
     "id": 5,
     "title": "Safety Gears",
-    "description": "Certified safety equipment like gloves, helmets, and PPE kits for workplace protection.",
+    "description": "Certified helmets, gloves, and PPE kits offering complete safety and protection for industrial environments and work zones.",
     "img": "/images/safety.jpg",
     "alt": "Safety Gears"
   },
   {
     "id": 6,
-    "title": "Industrials Consumables",
-    "description": "Essential consumables like fasteners, tapes, and abrasives for smooth daily operations.",
+    "title": "Industrial Consumables",
+    "description": "Daily-use essentials like fasteners, tapes, and abrasives that keep your operations running without delays or breakdowns.",
     "img": "/images/industrial.jpg",
-    "alt": "Industrials Consumables"
+    "alt": "Industrial Consumables"
   },
   {
     "id": 7,
     "title": "Lubricants & Oils",
-    "description": "High-performance industrial oils and greases that extend machine life and reduce wear.",
+    "description": "High-grade industrial oils and greases that reduce friction, extend machine life, and improve overall performance.",
     "img": "/images/lubricants.jpg",
     "alt": "Lubricants & Oils"
   },
   {
     "id": 8,
-    "title": "Wall Fitting",
-    "description": "Strong stainless and mild steel fittings ideal for industrial piping and structure work.",
+    "title": "Wall Fittings",
+    "description": "Durable wall fittings made from stainless and mild steel, ideal for industrial pipelines and structural installations.",
     "img": "/images/wall-fitting.jpg",
-    "alt": "Wall Fitting"
+    "alt": "Wall Fittings"
   },
   {
     "id": 9,
     "title": "Rotameters & Sensors",
-    "description": "Precision flow meters and sensors for monitoring and automation in industrial setups.",
+    "description": "Accurate flow meters and sensors built for real-time monitoring and automation across industrial systems.",
     "img": "/images/sensors.jpg",
     "alt": "Rotameters & Sensors"
   }
