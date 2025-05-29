@@ -1,1 +1,7 @@
 @import "tailwindcss";
+ /* Whole scrollbar track */
+::-webkit-scrollbar {
+  width: 0;
+}
+
+ 

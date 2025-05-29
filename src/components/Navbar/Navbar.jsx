@@ -29,8 +29,8 @@ export const Navbar = () => {
               <Link
                 to={item.toLowerCase()}
                 smooth={true}
-                duration={800}
-                offset={-100} // offset for fixed navbar
+                duration={1500}
+                offset={-80} // offset for fixed navbar
               >
                 {item}
               </Link>

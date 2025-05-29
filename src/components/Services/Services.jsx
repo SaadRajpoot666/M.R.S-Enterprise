@@ -37,8 +37,8 @@ export const Services = () => {
           <div
             key={id}
             className="card px-4 py-4 shadow-2xl bg-[#f5f5f5] rounded-2xl"
-            data-aos="zoom-in"
-            data-aos-delay={index * 100} // ⏱ staggered animation
+            data-aos="fade-in"
+            data-aos-delay={index*100}
           >
             <img
               src={img}
