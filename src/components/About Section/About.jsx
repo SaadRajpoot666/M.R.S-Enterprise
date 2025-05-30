@@ -5,9 +5,9 @@
  export const About = () => {
    useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 400,  easing: "ease-in-out", // more natural motion
+  offset: 80,
       once:false,
-      easing: "linear",
     });
   }, []);
   return (

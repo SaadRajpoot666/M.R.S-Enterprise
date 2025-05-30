@@ -5,7 +5,8 @@ import {Link} from "react-scroll"
 import { FaArrowRight } from 'react-icons/fa'
 export const HeroSection = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000, once: false });
+    AOS.init({ duration: 1000,  easing: "ease-in-out", // more natural motion
+  offset: 80, once: false });
   }, []);
 
   return (
