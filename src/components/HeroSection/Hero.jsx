@@ -3,6 +3,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import {Link} from "react-scroll"
 import { FaArrowRight } from 'react-icons/fa'
+import heroimg from "../../assets/images/header-bg.avif"
 export const HeroSection = () => {
   useEffect(() => {
     AOS.init({ duration: 1000,  easing: "ease-in-out", // more natural motion
@@ -13,7 +14,7 @@ export const HeroSection = () => {
     <section className="relative w-full h-screen overflow-hidden mt-[18%] md:mt-[8%] " id="home">
       {/* Background Image */}
       <img
-        src="/images/header-bg.avif"
+        src={heroimg}
         alt="Hero Background"
         data-aos="fade"
         className="absolute top-0 left-0 w-full h-full blur-sm brightness-50 object-cover -z-10"

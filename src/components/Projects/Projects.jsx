@@ -1,7 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import db from "../../assets/data/ProjectsData.json";
+import db from "../../assets/data/ProjectsData.js";
 
 export const Projects = () => {
   useEffect(() => {
