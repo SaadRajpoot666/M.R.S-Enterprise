@@ -5,7 +5,8 @@ import { useEffect } from "react";
 
 export const Services = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000, once: false }); // 🎯 animation triggers every time on scroll
+    AOS.init({ duration: 400, easing: "ease-in-out", // more natural motion
+  offset: 80, once: false }); // 🎯 animation triggers every time on scroll
   }, []);
 
   return (
@@ -37,7 +38,7 @@ export const Services = () => {
           <div
             key={id}
             className="card px-4 py-4 shadow-2xl bg-[#f5f5f5] rounded-2xl"
-            data-aos="fade-in"
+            data-aos="zoom-in"
             data-aos-delay={index*100}
           >
             <img

@@ -13,7 +13,8 @@ export const Navbar = () => {
   };
 
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true });
+    AOS.init({ duration: 400,  easing: "ease-in-out", // more natural motion
+  offset: 80, once: true });
   }, []);
 
   return (
