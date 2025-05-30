@@ -93,7 +93,7 @@ export const Footer = () => {
           <span className="text-white">All rights reserved. </span>
         </p>
         <p>
-          <span className="text-white"> Powered with 💡 by </span>{" "}
+          <span className="text-white"> Powered by </span>{" "}
           <a
             href="https://sbkdev.vercel.app/"
             target="_blank"
