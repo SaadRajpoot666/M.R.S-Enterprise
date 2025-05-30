@@ -8,7 +8,7 @@ export const Services = () => {
     AOS.init({ duration: 400, easing: "ease-in-out", // more natural motion
   offset: 80, once: false }); // 🎯 animation triggers every time on scroll
   }, []);
-
+ 
   return (
     <section id="services" className="mt-[10%] px-6" data-aos="fade-up">
       <h1 className="md:text-4xl text-3xl text-center mb-8 font-bold">
