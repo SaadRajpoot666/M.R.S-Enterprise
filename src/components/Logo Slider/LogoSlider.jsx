@@ -1,19 +1,35 @@
  import React from "react";
+import fluke from '../../assets/logos/fluke.png';
+import abb from '../../assets/logos/abb.png';
+import honeywell from '../../assets/logos/honeywell.png';
+import schneider from '../../assets/logos/schneider.png';
+import mitutoyo from '../../assets/logos/mitutoyo.png';
+import rigid from '../../assets/logos/rigid.png';
+import unit from '../../assets/logos/unit.png';
+import intes from '../../assets/logos/intes.png';
+import tense from '../../assets/logos/tense.png';
+import insize from '../../assets/logos/insize.png';
+import moteck from '../../assets/logos/moteck.png';
+import innerpack from '../../assets/logos/innerpack.png';
 
 const logos = [
-  "/logos/fluke.png",
-  "/logos/abb.png",
-  "/logos/honeywell.png",
-  "/logos/schneider.png",
-  "/logos/mitutoyo.png",
-  "/logos/rigid.png",
-  "/logos/unit.png",
-  "/logos/intes.png",
-  "/logos/tense.png",
-  "/logos/insize.png",
-  "/logos/moteck.png",
-  "/logos/innerpack.png",
+  fluke,
+  abb,
+  honeywell,
+  schneider,
+  mitutoyo,
+  rigid,
+  unit,
+  intes,
+  tense,
+  insize,
+  moteck,
+  innerpack,
 ];
+
+export default logos;
+
+ 
 
 export const LogoSlider = () => {
   return (

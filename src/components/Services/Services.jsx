@@ -1,4 +1,4 @@
- import servicesData from "../../assets/data/servicesData.json";
+ import servicesData from "../../assets/data/servicesData";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";

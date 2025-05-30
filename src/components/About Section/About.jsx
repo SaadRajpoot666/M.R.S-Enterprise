@@ -1,6 +1,7 @@
    import AOS from "aos";
  import "aos/dist/aos.css";
  import { useEffect } from "react";
+ import aboutImg from "../../assets/images/about-image.jpg"
  
  export const About = () => {
    useEffect(() => {
@@ -22,7 +23,7 @@
         <div data-aos="zoom-in" className="about-image-container w-full lg:w-1/2 min-w-[300px]">
           <div className="h-[500px] w-full overflow-hidden rounded-xl shadow-lg">
             <img
-              src="/images/about-image.jpg"
+              src={aboutImg}
               alt="About Image"
               className="w-full h-full object-cover"
             />
