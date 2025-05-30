@@ -38,26 +38,30 @@ export const Projects = () => {
         customized solutions, premium-grade equipment, and reliable service in
         demanding industrial environments.
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2  gap-6 max-w-6xl mx-auto text-lg ">
-        {db.map(({ id, image, title, alt, description },index) => (
-          <div
-            key={id}
-            className="card px-4 py-4 shadow-2xl bg-[#f5f5f5] rounded-2xl"
-            data-aos="zoom-in"
-            data-aos-delay={index * 100}
-          >
-            <img
-              src={image}
-              alt={alt}
-              className=" rounded-md w-full"
-            />
-            <h1 className="text-yellow-500 text-2xl font-bold font-serif mt-4">
-              {title}
-            </h1>
-            <p>{description}</p>
-          </div>
-        ))}
+       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-6xl mx-auto text-lg">
+  {db.map(({ id, image, title, alt, description }, index) => (
+    <div
+      key={id}
+      className="card px-4 py-4 shadow-2xl bg-[#f5f5f5] rounded-2xl flex flex-col"
+      data-aos="zoom-in"
+      data-aos-delay={index * 100}
+    >
+      <div className="w-full h-[250px] overflow-hidden rounded-md bg-white">
+        <img
+          src={image}
+          alt={alt}
+          className="w-full h-full object-contain mix-blend-multiply"
+        />
       </div>
+
+      <h1 className="text-yellow-500 text-2xl font-bold font-serif mt-4">
+        {title}
+      </h1>
+      <p className="mt-2">{description}</p>
+    </div>
+  ))}
+</div>
+
     </section>
   );
 };
