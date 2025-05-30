@@ -98,7 +98,7 @@ export const Footer = () => {
             href="https://sbkdev.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-yellow-400 font-extrabold hover:underline"
+            className="text-yellow-300 font-extrabold hover:underline"
           >
             Saad.Dev
           </a>
