@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import { About } from "./components/About Section/About";
 import { Services } from "./components/Services/Services";
 import { LogoSlider } from "./components/Logo Slider/LogoSlider";
+import { Projects } from "./components/Projects/Projects";
 
 
 
@@ -19,6 +20,7 @@ export default function App() {
    <About   />
    <Services   />
    <LogoSlider   />
+   <Projects   />
    </>
     
 }
