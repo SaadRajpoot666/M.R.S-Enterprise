@@ -56,13 +56,13 @@ export const LogoSlider = () => {
           delay: 1, // almost no delay between slides
           disableOnInteraction: false,
         }}
-        speed={4000} // very slow slide transition
+        speed={2000} // very slow slide transition
         allowTouchMove={true}
         className="px-4"
       >
         {logos.map((logo, index) => (
           <SwiperSlide key={index}>
-            <div className="flex items-center justify-center h-20">
+            <div className="flex items-center justify-center h-30 ">
               <img
                 src={logo}
                 alt={`Brand ${index + 1}`}

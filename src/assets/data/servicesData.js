@@ -1,8 +1,8 @@
  // src/assets/data/servicesData.js
-import electrical from '../images/electrical.jpg';
-import mechanical from '../images/mechanical.jpg';
-import lifting from '../images/lifting.jpg';
-import measuring from '../images/measuring.jpg';
+import electrical from "../images/electrical.jpeg";
+import mechanical from "../images/mechanical.jpeg";
+import lifting from '../images/lifting.jpeg';
+import measuring from '../images/measuring.jpeg';
 import safety from '../images/safety.jpg';
 import industrial from '../images/industrial.jpg';
 import lubricants from '../images/lubricants.jpg';
